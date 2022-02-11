@@ -1,5 +1,5 @@
 import socket
-HOST = "localhost"
+HOST = input()
 PORT = 5605
 addr = (HOST, PORT)
 sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
